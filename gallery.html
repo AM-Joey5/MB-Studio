@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — MB Studio Sessions, Equipment & Artists</title>
+<meta name="description" content="Browse MB Studio's gallery of recording sessions, studio equipment, artist portraits and behind-the-scenes video from our Nashville rooms.">
+<link rel="canonical" href="https://www.example.com/gallery.html">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gallery — MB Studio">
+<meta property="og:description" content="Recording sessions, studio equipment and artist portraits from MB Studio.">
+<meta property="og:image" content="assets/images/og-cover.jpg">
+<meta property="og:url" content="https://www.example.com/gallery.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gallery — MB Studio">
+<meta name="twitter:description" content="Recording sessions, studio equipment and artist portraits from MB Studio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" aria-hidden="true"><div class="loader-wave"><span></span><span></span><span></span><span></span><span></span></div></div>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="brand"><span class="mark">MB</span> MB Studio</a>
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html" aria-current="page">Gallery</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-ghost btn-sm">Book a Session</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Gallery</p>
+      <p class="eyebrow">Behind the glass</p>
+      <h1>Sessions, gear<br>and the people making it.</h1>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+
+      <div class="filter-row reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="sessions">Artist Sessions</button>
+        <button class="filter-btn" data-filter="equipment">Equipment</button>
+        <button class="filter-btn" data-filter="rooms">Studio Rooms</button>
+        <button class="filter-btn" data-filter="video">Video</button>
+      </div>
+
+      <div class="masonry reveal-stagger">
+        <div class="item wide" data-category="sessions">
+          <img src="assets/images/gallery-01.jpg" alt="Full band tracking session in Room B" loading="lazy" width="800" height="500">
+          <div class="overlay">Artist Session</div>
+        </div>
+        <div class="item tall" data-category="rooms">
+          <img src="assets/images/gallery-02.jpg" alt="Wide shot of Room A control room" loading="lazy" width="400" height="600">
+          <div class="overlay">Room A</div>
+        </div>
+        <div class="item" data-category="equipment">
+          <img src="assets/images/gallery-03.jpg" alt="Vintage tube microphone on a boom stand" loading="lazy" width="400" height="400">
+          <div class="overlay">Mic Locker</div>
+        </div>
+        <div class="item" data-category="equipment">
+          <img src="assets/images/gallery-04.jpg" alt="Outboard analog compressor rack" loading="lazy" width="400" height="400">
+          <div class="overlay">Outboard Gear</div>
+        </div>
+        <div class="item tall" data-category="sessions">
+          <img src="assets/images/gallery-05.jpg" alt="Vocalist recording in the isolation booth" loading="lazy" width="400" height="600">
+          <div class="overlay">Vocal Session</div>
+        </div>
+        <div class="item wide" data-category="video">
+          <video src="assets/videos/session-reel.mp4" muted loop playsinline preload="none" poster="assets/images/gallery-06.jpg"></video>
+          <div class="overlay">Session Reel — click to play</div>
+        </div>
+        <div class="item" data-category="rooms">
+          <img src="assets/images/gallery-07.jpg" alt="Drum kit set up for tracking in the live room" loading="lazy" width="400" height="400">
+          <div class="overlay">Live Room</div>
+        </div>
+        <div class="item" data-category="equipment">
+          <img src="assets/images/gallery-08.jpg" alt="Mixing console channel strips close-up" loading="lazy" width="400" height="400">
+          <div class="overlay">Console</div>
+        </div>
+        <div class="item tall" data-category="sessions">
+          <img src="assets/images/gallery-09.jpg" alt="Producer and artist reviewing a mix on studio monitors" loading="lazy" width="400" height="600">
+          <div class="overlay">Mix Review</div>
+        </div>
+        <div class="item" data-category="rooms">
+          <img src="assets/images/gallery-10.jpg" alt="Podcast recording booth with four microphones" loading="lazy" width="400" height="400">
+          <div class="overlay">Podcast Booth</div>
+        </div>
+        <div class="item wide" data-category="sessions">
+          <img src="assets/images/gallery-11.jpg" alt="Songwriter tracking an acoustic guitar part" loading="lazy" width="800" height="500">
+          <div class="overlay">Songwriter Session</div>
+        </div>
+        <div class="item" data-category="equipment">
+          <img src="assets/images/gallery-12.jpg" alt="Studio monitor speakers on isolation stands" loading="lazy" width="400" height="400">
+          <div class="overlay">Monitoring</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--color-bg-alt);">
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2>Want your session featured here?</h2>
+        <p class="lede">Book with MB Studio and we'll document as much — or as little — of the process as you'd like.</p>
+        <a href="contact.html" class="btn btn-primary">Book a Session</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Lightbox -->
+<div class="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+  <button class="lightbox-close" aria-label="Close image viewer">✕</button>
+  <button class="lightbox-prev" aria-label="Previous image">←</button>
+  <figure>
+    <img src="" alt="">
+    <figcaption></figcaption>
+  </figure>
+  <button class="lightbox-next" aria-label="Next image">→</button>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><span class="mark">MB</span> MB Studio</a>
+        <p>A premium recording and production studio in Nashville, building records for independent artists and labels since 2014.</p>
+        <div class="social-row">
+          <a href="https://instagram.com/" aria-label="Instagram">IG</a>
+          <a href="https://twitter.com/" aria-label="Twitter / X">X</a>
+          <a href="https://youtube.com/" aria-label="YouTube">YT</a>
+          <a href="https://open.spotify.com/" aria-label="Spotify">SP</a>
+        </div>
+      </div>
+      <div><h4>Quick Links</h4><ul>
+        <li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li><li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div><h4>Services</h4><ul>
+        <li><a href="services.html#recording">Music Recording</a></li><li><a href="services.html#mixing">Mixing</a></li>
+        <li><a href="services.html#mastering">Mastering</a></li><li><a href="services.html#beats">Beat Production</a></li>
+        <li><a href="services.html#podcast">Podcast Recording</a></li>
+      </ul></div>
+      <div><h4>Contact</h4><ul>
+        <li><a href="tel:+15550182934">+1 (555) 018-2934</a></li>
+        <li><a href="mailto:hello@mbstudio.example">hello@mbstudio.example</a></li>
+        <li>128 Harborview Row, Nashville, TN</li>
+        <li>Mon–Fri 10am–10pm · Sat 12pm–8pm</li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span data-year></span> MB Studio. All rights reserved.</p>
+      <p><a href="404.html">Sitemap</a> · Built with care in Nashville.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+<script>
+  // Clicking a video item plays it in place instead of opening the lightbox.
+  document.querySelectorAll('.masonry .item video').forEach((video) => {
+    video.closest('.item').addEventListener('click', (e) => {
+      e.stopImmediatePropagation();
+      if (video.paused) { video.setAttribute('controls', ''); video.play(); }
+    });
+  });
+</script>
+</body>
+</html>
